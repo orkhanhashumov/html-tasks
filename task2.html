@@ -1,39 +1,119 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-<p>Preceding Text</p>
-<ol type="I">
-    <li>List Item 1
-        <ol type="a">
-            <li>Nested İtem 1.1</li>
-            <li>Nested Item 1.2</li>
-        </ol>
-    </li>
-    <li>List Item 2
+  </head>
+  <body>
+    <form action="login.php" method="post">
+      <fieldset>
+        <a>Persnal details</a>
+        <br>
         <ul>
-            <li>Nested Item 2.1</li>
-            <li>Nested Item 2.2.
-<ul>
-    <li>Nested Item 2.2.2.1</li>
-    <li>Nested Item 2.2.2.2</li>
-</ul>
-<li>Nested Item 2.3</li>
-            </li>
+          <li>
+            Name:<input type="text" />
+            <br />
+          </li>
+          <br>
+          <li>
+            Email: <input type="text">
+          </li>
+          <br>
+          <li>
+            Password: <input type="password">
+          </li>
         </ul>
-    </li>
-    <li>List Item 3
+        <br>
+        <br>
         <ul>
-            <li>Nested Item 3.1</li>
-            <li>Nested Item 3.1</li>
-            <li>Nested Item 3.1</li>
-        </ul>
-    </li>
+            <li>Please check all the wmoyions that apply to you:</li>
+            <br>
+       <ul>
+        <li>
+            Angry <select>
+                <option></option>
+            </select>
+        </li>
+        <br>
+        <li>
+            Sad <select></select>
+        </li>
+        <br>
+        <li>
+ Happy <select></select>
+        </li>
+        <br>
+        <li>
+            Ambivalent <select></select>
+        </li>
+        <br>
+        <br>
+<li>
+How satisfed were you with our service?
+</li>
+<br>
+<li>
+<label>
+    Very satisfied<input type="radio">
+</label>
+</li>
+<br>
+<li>
+    <label>
+        Satisfied <input type="radio">
+    </label>
 
-</ol>
-</body>
+</li>
+<br>
+<li>
+    <label>
+        Didn't care <input type="radio">
+    </label>
+
+</li>
+<br>
+<li>
+    <label>
+        Dissatisfied <input type="radio">
+    </label>
+
+</li>
+<br>
+<li>
+    <label>
+        Very dissatisfied <input type="radio">
+    </label>
+
+</li>
+
+
+</ul>
+<ul>
+    <li>Further comments: </li>
+    <textarea style="height: 50px; width: 300px;;"></textarea>
+</ul>
+<ul>
+    <li>Bio photo <input type="file">
+
+    </li>
+</ul>
+<br>
+<label>
+
+  Location vissited
+
+    <select>
+        <option>Azerbaijan</option>
+        
+    </select>
+</label>
+<br>
+<br>
+<ul>
+<input type="submit">
+</ul>      
+</fieldset>
+    </form>
+  </body>
 </html>
